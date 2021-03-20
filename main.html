@@ -14,18 +14,21 @@
     <script type="text/javascript" src="js/slick/slick.min.js"></script>
     <script type="text/javascript" src="js/javascript.js"></script>
     <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
     <title>BookStorm.com</title>
 </head>
 <body>
     <section>
         <div class="background">
             <div class="welcome">
-                <h1 class="title">Welcome to BookStorm.ge</h1>
+                <h1 class="title">Welcome to BookStorm.com</h1>
             </div>
                  <div class="header">
                     <div class="logo">
                         <a href="main.html">
-                            <h3 class="logo-title">BookStorm.ge</h3>
+                            <h3 class="logo-title">BookStorm.com</h3>
                         </a>
                     </div>
                     <div class="navigation">
@@ -35,17 +38,17 @@
                                 </li>
                                 <li class="li-nav-main"><a class="li-nav" href="#">Books<i class="fas fa-chevron-down"></i></a>
                                     <ul class="dropdown">
-                                        <li><a class="li-nav2" href="#">Bestsellers</a></li>
-                                        <li><a class="li-nav2" href="#">New Arrivals</a></li>
-                                        <li><a class="li-nav2" href="#">Fiction</a></li>
-                                        <li><a class="li-nav2" href="#">Romance</a></li>
-                                        <li><a class="li-nav2" href="#">Education</a></li>
+                                        <li><a class="li-nav2" href="#Bestsellers">Bestsellers</a></li>
+                                        <li><a class="li-nav2" href="#NewArrivals">New Arrivals</a></li>
+                                        <li><a class="li-nav2" href="#Fiction">Fiction</a></li>
+                                        <li><a class="li-nav2" href="#Romance">Romance</a></li>
+                                        <li><a class="li-nav2" href="#Education">Education</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="li-nav" href="#">Cart</a></li>
-                                <li><a class="li-nav" href="#">Authores</a></li>
-                                <li><a class="li-nav" href="#">About</a></li>
-                                <li><a class="li-nav" href="#">contact</a></li>
+                                <li><a class="li-nav" href="#Account">Account</a></li>
+                                <li><a class="li-nav" href="#Cart"><i class="fas fa-shopping-bag"></i></a></li>
+                                <li><a class="li-nav" href="#About">About</a></li>
+                                <li><a class="li-nav" href="#Contact">contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -76,7 +79,7 @@
     </section>
     <div class="main-data">
     </div>
-    <section>
+    <section id="Bestsellers">
         <div class="section2">
             <h2 class="item-category">Bestsellers</h2>
             <div class="box-wraper">
@@ -84,6 +87,10 @@
                 <div class="front">
                         <div class="box-container">
                             <img src="image/books/9781509879502.jpg" alt="" title="">
+                            <div class="booktitle">
+                                <h3>Harry Potter</h3>
+                                <h4>Price: 12 USD</h4>
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -135,7 +142,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="NewArrivals">
         <div class="section2">
             <h2 class="item-category">New Arrivals</h2>
             <div class="box-wraper">
@@ -192,9 +199,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Fiction">
         <div class="section2">
-            <h2 class="item-category"> Fiction</h2>
+            <h2 class="item-category">Fiction</h2>
             <div class="box-wraper">
                 <a href="book.html?id=21">
                     <div class="box-container">
@@ -249,9 +256,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Romance">
         <div class="section2">
-            <h2 class="item-category"> Romance</h2>
+            <h2 class="item-category">Romance</h2>
             <div class="box-wraper">
                     <a href="book.html?id=31">
                         <div class="box-container">
@@ -306,9 +313,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="Education">
         <div class="section2">
-            <h2 class="item-category"> Education</h2>
+            <h2 class="item-category">Education</h2>
             <div class="box-wraper">
                 <a href="book.html?id=41">
                     <div class="box-container">
@@ -363,6 +370,33 @@
             </div>
         </div>
     </section>
-    
+
+    <section id="Account">
+        <div class="account-page">
+            <div class="container">
+                <div class="row">
+                    <div id="col-2">
+                        
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Cart"></section>
+    <section id="About"></section>
+    <section id="Contact"></section>
+    <script>var animation = lottieWeb.loadAnimation({
+        container: document.getElementById('col-2'),
+        path: 'https://assets1.lottiefiles.com/packages/lf20_ivMD4s.json',
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        name: "Demo Animation",
+      });</script>
 </body>
 </html>
