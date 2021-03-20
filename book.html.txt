@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/javascript.js"></script>
+        <title>BookStorm.com - Book</title>
+    </head>
+    <body>
+        <section>
+            <div class="book-wraper">
+                <img class="bookcover" src="image/books/harrypotter.jpg" alt="harrypotter">
+                <div>
+                    <div class="booktitle">
+                        <h1>Harry Potter</h1>
+                    </div>
+                    <div class="author">
+                        <h2 class="author-name">J.K Rolling</h2>
+                    </div>
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p>In this sequel to the phenomenally popular Harry Potter and the Sorcerer’s Stone, Harry returns to Hogwarts School of Witchcraft and Wizardry for his second year after a miserable summer with his Muggle (nonmagical) relatives. Once again, Harry’s school experiences are colored by encounters with genial ghosts and antagonistic teachers, by the rivalry between good-guy Gryffindor House and slimy Slytherin House, and by an ominous mystery to be solved involving Harry’s archenemy, the dark sorcerer Lord Voldemort. Once again, the attraction of Rowling’s traditional British school story is magnified tenfold by the fantasy elements superimposed upon it. The atmosphere Rowling creates is unique; the story whizzes along; Harry is an unassuming and completely sympathetic hero. But, truth to tell, you may feel as if you’ve read it all before. Rowling clearly hit on a winning formula with the first Harry Potter book; the second book — though still great fun — feels a tad, well, formulaic. MARTHA V. PARRAVANO</p>
+                    </div>
+                    <div class="price">
+                        <h3>30 US</h3>
+                    </div>
+                    <div class="cart">
+                        <h2>Add To Cart</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

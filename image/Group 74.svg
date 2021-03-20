@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="580.667" height="372.905" viewBox="0 0 580.667 372.905">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="580.667" height="372.905" transform="translate(84.701 52.736)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientTransform="matrix(0.707, 0.707, -0.707, 0.707, 0.5, -0.207)" gradientUnits="objectBoundingBox">
+      <stop offset="0.005" stop-color="#de3dbf"/>
+      <stop offset="0.103" stop-color="#af3097"/>
+      <stop offset="0.217" stop-color="#81236f"/>
+      <stop offset="0.335" stop-color="#59184d"/>
+      <stop offset="0.456" stop-color="#390f31"/>
+      <stop offset="0.579" stop-color="#20081b"/>
+      <stop offset="0.708" stop-color="#0e030c"/>
+      <stop offset="0.844" stop-color="#030002"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0.5 -0.207) rotate(45)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="0.5" cy="0.5" r="0.5" gradientTransform="translate(0)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-5" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.044" stop-color="#e6e6e6"/>
+      <stop offset="0.15" stop-color="#b1b1b1"/>
+      <stop offset="0.26" stop-color="#818181"/>
+      <stop offset="0.371" stop-color="#595959"/>
+      <stop offset="0.485" stop-color="#393939"/>
+      <stop offset="0.602" stop-color="#202020"/>
+      <stop offset="0.724" stop-color="#0e0e0e"/>
+      <stop offset="0.852" stop-color="#030303"/>
+      <stop offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_74" data-name="Group 74" transform="translate(-84.701 -52.736)">
+    <g id="Group_73" data-name="Group 73" clip-path="url(#clip-path)">
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="85.513" cy="85.513" r="85.513" transform="translate(90.701 243.862) rotate(-45)" fill="url(#radial-gradient)" style="mix-blend-mode: screen;isolation: isolate"/>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="85.513" cy="85.513" r="85.513" transform="translate(445.638 396.194) rotate(-45)" opacity="0.42" fill="url(#radial-gradient-2)" style="mix-blend-mode: screen;isolation: isolate"/>
+      <path id="Path_208" data-name="Path 208" d="M253.614,386.363a7.1,7.1,0,1,1-7.1-7.1A7.1,7.1,0,0,1,253.614,386.363Z" fill="url(#radial-gradient-3)" style="mix-blend-mode: screen;isolation: isolate"/>
+      <path id="Path_209" data-name="Path 209" d="M308.2,258.226a7.1,7.1,0,1,1-7.1-7.105A7.1,7.1,0,0,1,308.2,258.226Z" fill="url(#radial-gradient-4)" style="mix-blend-mode: screen;isolation: isolate"/>
+      <circle id="Ellipse_13" data-name="Ellipse 13" cx="325.59" cy="325.59" r="325.59" transform="translate(131.76 -272.854)" fill="url(#radial-gradient-5)" style="mix-blend-mode: screen;isolation: isolate"/>
+    </g>
+  </g>
+</svg>
