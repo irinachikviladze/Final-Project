@@ -3,6 +3,7 @@ $(document).ready(function(){
     //loadCategories();
     runAnimation();
     checkBook();
+    runAnimationForSVG();
   });
 
 
@@ -602,11 +603,15 @@ $(document).ready(function(){
     $('.main-data').html(result);
     runAnimation();
   }
-  
-  var animation = bodymovin.loadAnimation({
+  function runAnimationForSVG()
+  {
+    var animation = bodymovin.loadAnimation({
       container:document.getElementById('col-2'),
       renderer:'svg',
       loop:true,
       autoplay:true,
       path:'https://assets1.lottiefiles.com/packages/lf20_ivMD4s.json',
+      
   })
+  }
+ 

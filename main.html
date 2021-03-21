@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick/slick-theme.css"/>
-    
+    <link rel="stylesheet" href="text/css" href="cart.html">
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="js/slick/slick.min.js"></script>
@@ -46,7 +46,7 @@
                                     </ul>
                                 </li>
                                 <li><a class="li-nav" href="#Account">Account</a></li>
-                                <li><a class="li-nav" href="#Cart"><i class="fas fa-shopping-bag"></i></a></li>
+                                <li><a class="li-nav" href="./cart.html"><i class="fas fa-shopping-bag"></i></a></li>
                                 <li><a class="li-nav" href="#About">About</a></li>
                                 <li><a class="li-nav" href="#Contact">contact</a></li>
                             </ul>
@@ -376,27 +376,34 @@
             <div class="container">
                 <div class="row">
                     <div id="col-2">
-                        
                     </div>
                     <div class="col-2">
                         <div class="form-container">
+                            <div class="form-btn">
+                                <span>Login</span>
+                                <span>Sign Up</span>
+                            </div>
 
+                            <form>
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" class="btn"><span>Login</span></button>
+                                <a href="#">Forgot Password</a>
+                            </form>
+
+                            <form>
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <button type="submit" class="btn">Sign Up</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="Cart"></section>
     <section id="About"></section>
     <section id="Contact"></section>
-    <script>var animation = lottieWeb.loadAnimation({
-        container: document.getElementById('col-2'),
-        path: 'https://assets1.lottiefiles.com/packages/lf20_ivMD4s.json',
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        name: "Demo Animation",
-      });</script>
 </body>
 </html>
