@@ -6,14 +6,17 @@
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
     
         <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="js/javascript.js"></script>
-        <title>BookStorm.com - Book</title>
+        <title>Harry Potter | BookStorm.com - Book</title>
     </head>
     <body>
-        <div class="header">
+        <div class="header new-header-color">
             <div class="logo">
                 <a href="main.html">
                     <h3 class="logo-title">BookStorm.com</h3>
@@ -24,7 +27,7 @@
                     <ul class="ul-nav">
                         <li><a class="li-nav" href="main.html">home</a>
                         </li>
-                        <li class="li-nav-main"><a class="li-nav" href="#">Books<i class="fas fa-chevron-down"></i></a>
+                        <li class="li-nav-main"><a class="li-nav" href="#">Books<i style="margin-left: 5px;margin-top: 10px;position: absolute;" class="fas fa-chevron-down"></i></a>
                             <ul class="dropdown">
                                 <li><a class="li-nav2" href="#Bestsellers">Bestsellers</a></li>
                                 <li><a class="li-nav2" href="#NewArrivals">New Arrivals</a></li>
@@ -33,11 +36,12 @@
                             </ul>
                         </li>
                         <li><a class="li-nav" href="#Account">Account</a></li>
-                        <li><a class="li-nav" href="#Cart"><i class="fas fa-shopping-bag"></i></a></li>
-                        <li><a class="li-nav" href="#About">About</a></li>
+                        <li><a class="li-nav" href="./cart.html"><i class="fas fa-shopping-bag"></i></a></li>
                         <li><a class="li-nav" href="#Contact">contact</a></li>
                     </ul>
                 </nav>
+                <div class="overflow-menu hidden"></div>
+                <i class="fas fa-bars show-main-menu hidden"></i>
             </div>
             <div class="burger-icon">
                 <i class="fas fa-bars"></i>
@@ -67,5 +71,40 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <div class="footer-container">
+                <div class="box1">
+                    <h1 class="footer-title">COMPANY</h1>
+                    <h2 class="footer-text">Home</h2>
+                    <h3 class="footer-text">About Us</h3>
+                    <h4 class="footer-text">Shop</h4>
+                    <h5 class="footer-text">Blog</h5>
+                    <h6 class="footer-text">Contact Us</h6>
+                </div>
+                <div class="box1">
+                    <h1 class="footer-title">SERVICE</h1>
+                    <h2 class="footer-text">Support</h2>
+                    <h3 class="footer-text">F.A.Q.</h3>
+                    <h4 class="footer-text">Warranty</h4>
+                    <h5 class="footer-text">Live Chat</h5>
+                    <h6 class="footer-text">Privacy Policy</h6>
+                </div>
+                <div class="box1">
+                    <h1 class="footer-title">ORDERS & RETURNS</h1>
+                    <h2 class="footer-text">Order</h2>
+                    <h3 class="footer-text">status</h3>
+                    <h4 class="footer-text">Shipping</h4>
+                    <h5 class="footer-text">Policy & Service</h5>
+                    <h6 class="footer-text">Cart</h6>
+                </div>
+                <div class="box1" style="text-align: center;">
+                    <h1 class="footer-title">PAYMENT ACCEPT</h1>
+                    <i class="fab fa-cc-mastercard" title="Mastercard" style="font-size: 26px;color:#EB001B;"></i>
+                    <i class="fab fa-cc-amex" title="American express" style="font-size: 26px;color:#27AEE3;"></i>
+                    <i class="fab fa-cc-visa" title="Visa" style="font-size: 26px;color:#1A1F71;"></i>
+                </div>
+            </div>
+            <h6 class="last-text">Copyright © 2021 | All Right Reserved</h6>
+        </footer>
     </body>
 </html>
