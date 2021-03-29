@@ -1589,6 +1589,7 @@ color:rgb(0, 183, 255);
     right:50px;
     bottom:20px;
     z-index: 5;
+    position: fixed;
     cursor: pointer;
     display:flex;
 }
