@@ -72,14 +72,7 @@ body .hidden{
     width:3px;
     height:3px;
 }
-.burger-icon{
-    display:none;
-    color: #ffff;
-    font-size:30px;
-    margin-right:20px;
-    margin-top:10px;
-    cursor:pointer;
-}
+
 .welcome{
     width:400px;
     display:flex;
@@ -794,5 +787,5 @@ color:rgb(0, 183, 255);
     z-index: 5;
     cursor: pointer;
     display:flex;
-
+    position:fixed;
 }

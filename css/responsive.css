@@ -1,7 +1,4 @@
 @media (max-width:810px){
-    .navigation{
-        display: none;
-    }
     .burger-icon{
         display:block;
     }
@@ -25,7 +22,7 @@
     }
 }
 
-@media (max-width: 650px)
+@media (max-width: 810px)
 {
     .navigation2 .fa-chevron-down
     {
@@ -58,7 +55,7 @@
     body .show-main-menu
     {
         color: #fff;
-        font-size: 20px;
+        font-size: 30px;
         margin-right: 15px;
         cursor: pointer;
         display: block;
