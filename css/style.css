@@ -1,7 +1,6 @@
 body .hidden{
     display: none;
 }
-
 /* first section ------------------------*/
 .background{
     /*background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
@@ -20,8 +19,6 @@ body .hidden{
 #Fiction{
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
-
-
 .header{
     position: absolute;
     display: flex;
@@ -204,9 +201,6 @@ body .hidden{
         fill: white;
         cursor:pointer;
     }
-
-
-
 /* section 2 -------------*/
 .section2 {
     padding-top:100px;
@@ -383,7 +377,6 @@ body .hidden{
 .clear{
     clear: both;
 }
-
 /* book animation 1 ---------------------------------- */
 .harryimg{
     width:220px;
@@ -475,8 +468,6 @@ body .hidden{
     background: rgba(0,0,0,0.1);
     box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
   }
-  
-  
 .container h2 {
     width: 350px;
     height: 40px;
@@ -492,9 +483,6 @@ body .hidden{
     -moz-transform: rotate(90deg) translateY(-40px);
     transform: rotate(90deg) translateY(-40px);
   }
-  
-  
-  
 .left-side h2 span:first-child {
     font-weight: 400;
     font-size: 13px;
@@ -532,11 +520,9 @@ body .hidden{
     color:#555;
     display: inline-block;
 }
-
 .form-btn{
     display: flex;
 }
-
 .form-btn>span{
     flex:1;
     padding:0;
@@ -551,7 +537,6 @@ body .hidden{
     font-style: normal;
     font-display: swap;
 }
-
 .form-btn .active{
     background-color:#1e6ff1cc;
     color:#fff;
@@ -560,7 +545,6 @@ body .hidden{
 #login-form a{
     color:#1e6ff1;
 }
-
 .btn{
     display: inline-block;
     margin-top:20px;
@@ -579,7 +563,7 @@ body .hidden{
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
   .btn span:after {
     content: '\00bb';
     position: absolute;
@@ -595,8 +579,6 @@ body .hidden{
     opacity: 1;
     right: 0;
   }
-  
-
 form a{
     margin-left:20px;
 }
@@ -645,19 +627,15 @@ table{
     width:100%;
     border-collapse: collapse;
 }
-.cart-info{
-    
+.cart-info{   
     display:flex;
     flex-wrap: wrap;
-
 }
-
 .cart-price::before
 {
     content: '$';
     display: inline-block;
 }
-
 th{
     text-align: left;
     font-family: 'Poppins';
@@ -671,7 +649,6 @@ th{
 }
 td{
     padding:20px 5px;
-
 }
 td input{
     width:50px;
@@ -681,7 +658,6 @@ td input{
 td a{
     color:#ff523b;
     font-size:20px;
-
 }
 .cart-info small{
     margin-bottom:20px;
@@ -711,7 +687,6 @@ th:last-child{
     text-align: right;
 }
 /* ---------- CONTACT SECTION ------------------------*/
-
 .contact-section{
     width:100%;
 }
@@ -728,11 +703,9 @@ th:last-child{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .map-div{
     margin:25px 0 0 250px;
 }
-
 h4{
     font-size: 40px;
     font-family: 'Poppins';
@@ -740,7 +713,6 @@ h4{
     font-style: normal;
     font-display: swap;
 }
-
 .li-contact{
     margin-top:20px;
     font-family: 'Poppins';
@@ -826,7 +798,6 @@ color:rgb(0, 183, 255);
 }body .hidden{
     display: none;
 }
-
 /* first section ------------------------*/
 .background{
     /*background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
@@ -845,8 +816,6 @@ color:rgb(0, 183, 255);
 #Fiction{
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
-
-
 .header{
     position: absolute;
     display: flex;
@@ -1029,9 +998,6 @@ color:rgb(0, 183, 255);
         fill: white;
         cursor:pointer;
     }
-
-
-
 /* section 2 -------------*/
 .section2 {
     padding-top:100px;
@@ -1089,7 +1055,6 @@ color:rgb(0, 183, 255);
 .slick-track {
     height: 300px;
 }
-
 /* book page -----------------*/
 .book-wraper-parent{
     background-size: cover;
@@ -1208,7 +1173,6 @@ color:rgb(0, 183, 255);
 .clear{
     clear: both;
 }
-
 /* book animation 1 ---------------------------------- */
 .harryimg{
     width:220px;
@@ -1280,7 +1244,7 @@ color:rgb(0, 183, 255);
 .container .front > div {
     border-radius: 0 3px 3px 0;
     box-shadow: 
-      inset 4px 0 10px rgba(0, 0, 0, 0.1);
+    inset 4px 0 10px rgba(0, 0, 0, 0.1);
   }
 .container .front:after {
     content: '';
@@ -1300,8 +1264,6 @@ color:rgb(0, 183, 255);
     background: rgba(0,0,0,0.1);
     box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
   }
-  
-  
 .container h2 {
     width: 350px;
     height: 40px;
@@ -1317,15 +1279,11 @@ color:rgb(0, 183, 255);
     -moz-transform: rotate(90deg) translateY(-40px);
     transform: rotate(90deg) translateY(-40px);
   }
-  
-  
-  
 .left-side h2 span:first-child {
     font-weight: 400;
     font-size: 13px;
     padding-right: 200px;
   }
-  
 .left-side h2 span:last-child{
     font-family: acumin-pro, sans-serif;
   } 
@@ -1404,7 +1362,7 @@ color:rgb(0, 183, 255);
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
   .btn span:after {
     content: '\00bb';
     position: absolute;
@@ -1412,16 +1370,14 @@ color:rgb(0, 183, 255);
     top: 0;
     right: -10px;
     transition: 0.5s;
-  }
+}
   .btn:hover span {
     padding-right: 15px;
-  }
+}
   .btn:hover span:after {
     opacity: 1;
     right: 0;
-  }
-  
-
+}
 form a{
     margin-left:20px;
 }
@@ -1445,7 +1401,6 @@ form input{
     background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     overflow: auto;
 }
-
 .small-container {
     padding:50px;
     background:transparent; 
@@ -1471,18 +1426,15 @@ table{
     border-collapse: collapse;
 }
 .cart-info{
-    
+
     display:flex;
     flex-wrap: wrap;
-
 }
-
 .cart-price::before
 {
     content: '$';
     display: inline-block;
 }
-
 th{
     text-align: left;
     font-family: 'Poppins';
@@ -1496,7 +1448,6 @@ th{
 }
 td{
     padding:20px 5px;
-
 }
 td input{
     width:50px;
@@ -1506,7 +1457,6 @@ td input{
 td a{
     color:#ff523b;
     font-size:20px;
-
 }
 .cart-info small{
     margin-bottom:20px;
@@ -1536,7 +1486,6 @@ th:last-child{
     text-align: right;
 }
 /* ---------- CONTACT SECTION ------------------------*/
-
 .contact-section{
     width:100%;
 }
@@ -1553,7 +1502,6 @@ th:last-child{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .map-div{
     margin:25px 0 0 250px;
 }
@@ -1565,7 +1513,6 @@ h4{
     font-style: normal;
     font-display: swap;
 }
-
 .li-contact{
     margin-top:20px;
     font-family: 'Poppins';
@@ -1633,6 +1580,8 @@ color:rgb(0, 183, 255);
 }
  /* chat icon ------------------*/
  .animation-block{
+     width:100%;
+     height:100%;
      position: fixed;
      z-index: 5;
  }
@@ -1642,10 +1591,9 @@ color:rgb(0, 183, 255);
     animation: myicon 2.1s;
     animation-fill-mode: forwards;
     position: absolute;
-    right:20px;
+    right:50px;
     bottom:20px;
     z-index: 5;
     cursor: pointer;
     display:flex;
-
 }

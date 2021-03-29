@@ -4,8 +4,15 @@ $(document).ready(function(){
     runAnimation();
     checkBook();
     runAnimationForSVG();
+    changeForms();
+    cartClicks();
+    showMenu();
+    if ($('.cart-page').length)
+    {
+        calculatePrice();
+    }
   });
-
+  /* BURGER ICON ANIMATION------------------------------*/
 
   function checkBook() {
     var index = window.location.search;
@@ -199,10 +206,10 @@ $(document).ready(function(){
     //     resa += res;
     // }
     // console.log(resa);
-    
-    console.log(data[index-1]);
 
     var data = data[index-1];
+
+    
 
     if (!data) return;
 
@@ -212,7 +219,9 @@ $(document).ready(function(){
     $('.price').find('h3').html(data.price + ' USD');
     $('.bookcover').attr('src', data.image);
 
-    document.title = data.item_title;
+    console.log(data.item_title);
+
+    document.title = data.item_title + ' | BookStorm.com - Book';
 
   }
 
@@ -316,13 +325,91 @@ $(document).ready(function(){
   }
   function runAnimationForSVG()
   {
-    var animation = bodymovin.loadAnimation({
+    if (typeof bodymovin === 'undefined')
+    {
+        return false;
+    }
+
+    bodymovin.loadAnimation({
       container:document.getElementById('col-2'),
       renderer:'svg',
       loop:true,
       autoplay:true,
       path:'https://assets1.lottiefiles.com/packages/lf20_ivMD4s.json',
       
-  })
+    });
   }
+
+function changeForms()
+{
+    $('.form-btn').find('span').off('click').on('click', function()
+    {
+        $('span').removeClass('active');
+        $(this).addClass('active');
+        var form = $(this).attr('form');
+        if (form === 'login-form')
+        {
+            $('#login-form').css('display', 'block');
+            $('#signup-form').css('display', 'none');
+        }
+        else
+        {
+            $('#login-form').css('display', 'none');
+            $('#signup-form').css('display', 'block');
+        }
+    });
+}
+
+function calculatePrice()
+{
+    var dollars = 0;
+    var percentage = 3;
+    $('.cart-price').each(function(index, price){
+        dollars += parseInt($(price).html());
+    });
+    $('.subtotal').html('$' + dollars);
+    $('.total').html('$' + (parseInt(dollars) + parseFloat(((dollars * percentage ) / 100).toFixed(3))));
+    $('.tax').html('$' + parseFloat(((dollars * percentage ) / 100).toFixed(3)));
+}
+
+function cartClicks()
+{
+    $('.cart-info').find('a').off('click').on('click', function()
+    {
+        $(this).parent().parent().parent().parent().remove();
+        return false;
+    });
+
+    $('.cart-page').find('input[type=number]').off('change').on('change', function()
+    {
+        var bookNumber = $(this).val();
+        $(this).parent().parent().find('.cart-price').html(bookNumber * 10);
+        calculatePrice();
+    });
+}
+
+function showMenu()
+{
+    $('.show-main-menu').off('click').on('click', function()
+    {
+        var hasClass = $('.navigation2').hasClass('active');
+
+        if (hasClass)
+        {
+            $('.navigation2').removeClass('active');
+            $('.overflow-menu').removeClass('active');
+        }
+        else
+        {
+            $('.navigation2').addClass('active');
+            $('.overflow-menu').addClass('active');
+        }
+    });
+
+    $('.overflow-menu').off('click').on('click', function()
+    {
+        $('.navigation2').removeClass('active');
+        $('.overflow-menu').removeClass('active');
+    });
+}
  
